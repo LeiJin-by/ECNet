@@ -42,14 +42,14 @@ optional arguments:
   --epochs              Number of epochs to train the model.
   --batchsize           Batch size for training.
   --train               whether to train the model.
-  --name                Name of the experiment or model
-  --train_data_used     Fraction of training data to be used
+  --name                Name of the experiment or model.
+  --train_data_used     Fraction of training data to be used.
   --device              Device to run the training on, e.g., 'cuda:0' or 'cpu'.
-  --folds               Number of folds for training ECNet
+  --folds               Number of folds for training ECNet.
   --lr                  Learning rate for the optimizer.
-  --save_model          Whether to save trained models , 1: true, 0: false, default: 1
-  --prediction_model    Train a model for predicting or testing , 1: true, 0: false, default: 0
-  --performance_test    Whether to test the performance of trained model , 1: true, 0: false, default: 1
+  --save_model          Whether to save trained models.
+  --prediction_model    Train a model for predicting or testing.
+  --performance_test    Whether to test the performance of trained model.
 ```
 
 
