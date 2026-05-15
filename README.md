@@ -19,14 +19,14 @@ pip install -r requirements.txt
 
 ## Usage
 
-You can train a test model by:
+You can train a model by:
 
 ```shell
-python train.py --name MP_test --path data/datasets/MP_all.csv --epochs 10
+python train.py --name train_model --path train_data.csv 
 ```
 After training the model, you can predict using composition
 ```shell
-python predict.py --name MP_test --path data/datasets/MP_all.csv
+python predict.py --name train_model --path predict_data.csv
 ```
 
 #### Train under different data size
