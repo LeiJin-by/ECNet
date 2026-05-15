@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-You can train a model by:
+You can train a test model by:
 
 ```shell
 python train.py --name MP_test --path data/datasets/MP_all.csv --epochs 10
