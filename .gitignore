@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ECNet generated artifacts
+log/*
+!log/.gitkeep
+models/*
+!models/.gitkeep
+results/*
+!results/.gitkeep
+*.pth
+*.pt
