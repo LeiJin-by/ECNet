@@ -45,9 +45,6 @@ For more options:
 python train.py --help
 ```
 
-## Data
-
-Processed datasets and exact split files are provided in `data/`. The 137-dimensional neutral-atom electronic-configuration lookup table is provided in `utils/elec_config.csv`.
 
 ## ECNet-Ox Benchmark
 
