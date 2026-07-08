@@ -30,7 +30,7 @@ python train.py --name ECNet_MP --path data/datasets/MP_all.csv --folds 5 --epoc
 Predict with trained models:
 
 ```shell
-python predict.py --name ECNet_MP --path data/datasets/MP_all.csv --device cuda:0
+python predict.py --name ECNet_MP --path data/datasets/MP_all.csv 
 ```
 
 Train with a specified fraction of the training data:
@@ -63,9 +63,6 @@ python train_ox.py --name ECNet_Ox_MP --path data/datasets/MP_ox_integer_valid.c
 
 The corresponding split files are provided in `data/splits-ox/`.
 
-## Requirements
-
-Main dependencies include PyTorch, NumPy, pandas, scikit-learn, pymatgen, matminer, and SMACT. See `requirements.txt` for details.
 
 ## Citation
 
